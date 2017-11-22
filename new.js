@@ -3,13 +3,6 @@ function grabProject(context, next) {
     context.emit('data', 'silly', context.module.name + ' package-meta',
         context.meta);
   let packageName = context.module.raw;
-  if (context.module.type === 'directory') {
-    context.module.raw = context.module.name = path.basename(packageName);
-    packageName = path.resolve(process.cwd(), packageName);
-  }
-  let bailed = false;
-  context.emit('data', 'info', context.module.name + ' npm:',
-      'Downloading project: ' + packageName);
   const proc =
     spawn(
       'npm',
@@ -17,6 +10,15 @@ function grabProject(context, next) {
       createOptions(
         context.path,
         context));
+  
+  if (context.module.type === 'directory') {
+    context.module.raw = context.module.name = path.basename(packageName);
+    packageName = path.resolve(process.cwd(), packageName);
+  }
+  let bailed = false;
+  context.emit('data', 'info', context.module.name + ' npm:',
+      'Downloading project: ' + packageName);
+  
 
     let filename = '';
     filename = 'hello';
