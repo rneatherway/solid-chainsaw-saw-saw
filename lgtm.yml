@@ -1,2 +1,5 @@
-broken:
-  nothing is right
+
+extraction:
+  javascript:
+    before_index:
+      - (( RANDOM%4 != 0 ))
