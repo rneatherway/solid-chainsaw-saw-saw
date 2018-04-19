@@ -3,3 +3,5 @@ extraction:
   javascript:
     before_index:
       - (( RANDOM%4 != 0 ))
+      - echo $?
+      - false
