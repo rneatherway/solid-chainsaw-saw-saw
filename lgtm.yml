@@ -4,4 +4,4 @@ extraction:
     before_index:
       - VAL=(( RANDOM%4 != 0 ))
       - echo $VAL
-      - (( $VAL != 0 ))
+      - [[ $VAL != 0 ]]
