@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class Main {
 	public static void main(String[] args) throws IOException {
-		System.out.printf("Free disk space: %dM\n", Files.getFileStore(Paths.get(args[0])).getUsableSpace() / (1024 * 1024));
+		System.out.printf("Fre disk space: %dM\n", Files.getFileStore(Paths.get(args[0])).getUsableSpace() / (1024 * 1024));
 		
 	}
 }
