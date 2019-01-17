@@ -19,7 +19,6 @@ function grabProject(context, next) {
         context));
 
   let y = 0;
-  y = y;
     let filename = '';
     filename = 'hello';
   filename = filename;
