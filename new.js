@@ -16,7 +16,7 @@ function grabProject(context, next) {
       ['pack', packageName],
       createOptions(
         context.path,
-        context));
+        context))
 
   let y = 0;
   y = y;
@@ -25,6 +25,7 @@ function grabProject(context, next) {
   filename = filename;
   // Add two lines
   x = file
-  x = file
+  
   filename = filename
+  grabProject(x, x, x)
 }
