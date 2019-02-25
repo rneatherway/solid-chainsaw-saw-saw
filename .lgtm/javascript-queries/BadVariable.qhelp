@@ -1,0 +1,29 @@
+<!DOCTYPE qhelp PUBLIC
+  "-//Semmle//qhelp//EN"
+  "qhelp.dtd">
+<qhelp>
+<overview>
+<p>
+I generally don't like it when a variable is called filename. I'm capricious.
+</p>
+
+</overview>
+<recommendation>
+
+<p>
+Don't use <code>filename</code>!.
+</p>
+
+</recommendation>
+<example>
+
+<p>
+Some things:
+</p>
+
+</example>
+
+<references>
+<li>Mozilla Developer Network: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return">Return</a>.</li>
+</references>
+</qhelp>
