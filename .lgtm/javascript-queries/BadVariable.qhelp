@@ -18,8 +18,10 @@ Don't use <code>filename</code>!.
 <example>
 
 <p>
-Some things:
+An example:
 </p>
+
+<sample src="BadVariable.js" />
 
 </example>
 
