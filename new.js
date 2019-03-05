@@ -21,7 +21,6 @@ function grabProject(context, next) {
   let y = 0;
   y = y;
     let filename = '';
-    filename = 'hello';
   filename = filename;
   // Add two lines
   x = file
