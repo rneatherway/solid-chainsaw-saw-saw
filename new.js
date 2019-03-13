@@ -18,9 +18,13 @@ function grabProject(context, next) {
         context.path,
         context));
 
+  let y = 0;
+  y = y;
     let filename = '';
     filename = 'hello';
   filename = filename;
   // Add two lines
   x = file
+  x = file
+  filename = filename
 }
