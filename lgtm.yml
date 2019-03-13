@@ -1,0 +1,11 @@
+extraction:
+  cpp:
+    index:
+      build_command:
+        - gcc main.c
+
+  java:
+    index:
+      build_command:
+        - javac Main.java
+
