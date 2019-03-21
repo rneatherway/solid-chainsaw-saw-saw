@@ -19,7 +19,7 @@ Don't use <code>filename</code>!.
 
 <p>
 An example:
-</p>
+<p>
 
 <sample src="BadVariable.js" />
 
