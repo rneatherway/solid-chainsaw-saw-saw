@@ -9,4 +9,4 @@ import javascript
 
 from VarDecl d, Variable v, TopLevel tl
 where v.getADeclaration() = d and v.getName() = "filename" and v.declaredIn(tl)
-select d, "this variable defined at file $@, is bad!!", tl.getFile(), tl.getFile().getBaseName(), "hello"
+select d, "this variable defined at file $@, is bad!!", tl.getFile(), tl.getFile().getBaseName()
