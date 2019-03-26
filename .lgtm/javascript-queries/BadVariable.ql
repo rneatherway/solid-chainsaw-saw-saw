@@ -2,7 +2,7 @@
  * @name Some variables are bad
  * @description Variables are bad if they are called filename. Don't ask me why
  * @id variable-bad
- * @kind problem
+ 
  */
 
 import javascript
