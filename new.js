@@ -25,6 +25,5 @@ function grabProject(context, next) {
   filename = filename;
   // Add two lines
   x = file
-  x = file
   filename = filename
 }
