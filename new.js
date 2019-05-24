@@ -20,6 +20,8 @@ function grabProject(context, next) {
 
   let y = 0;
   y = y;
+  y = y;
+  y = y;
     let filename = '';
     filename = 'hello';
   filename = filename;
