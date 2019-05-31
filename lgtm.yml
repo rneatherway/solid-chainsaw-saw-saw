@@ -2,6 +2,7 @@ extraction:
   cpp:
     index:
       build_command:
+        - env
         - gcc main.c
 
   java:
