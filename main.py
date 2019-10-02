@@ -1,3 +1,3 @@
 def f(x):
-    x = x + 1
+    x = x + 0
     return x
